@@ -11,6 +11,8 @@
 		D2ED394C2B25D83F006C3A68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED394B2B25D83F006C3A68 /* ContentView.swift */; };
 		D2ED394E2B25D841006C3A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ED394D2B25D841006C3A68 /* Assets.xcassets */; };
 		D2ED39512B25D841006C3A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ED39502B25D841006C3A68 /* Preview Assets.xcassets */; };
+		D2ED39582B26C759006C3A68 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED39572B26C759006C3A68 /* ContentViewModel.swift */; };
+		D2ED395A2B26C981006C3A68 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED39592B26C981006C3A68 /* ResultModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D2ED394B2B25D83F006C3A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2ED394D2B25D841006C3A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2ED39502B25D841006C3A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2ED39572B26C759006C3A68 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D2ED39592B26C981006C3A68 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D2ED394B2B25D83F006C3A68 /* ContentView.swift */,
 				D2ED394D2B25D841006C3A68 /* Assets.xcassets */,
 				D2ED394F2B25D841006C3A68 /* Preview Content */,
+				D2ED39572B26C759006C3A68 /* ContentViewModel.swift */,
+				D2ED39592B26C981006C3A68 /* ResultModel.swift */,
 			);
 			path = MapApp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2ED395A2B26C981006C3A68 /* ResultModel.swift in Sources */,
 				D2ED394C2B25D83F006C3A68 /* ContentView.swift in Sources */,
 				D2ED394A2B25D83F006C3A68 /* MapAppApp.swift in Sources */,
+				D2ED39582B26C759006C3A68 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				DEVELOPMENT_TEAM = 6SG8CN98LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Хотим использовать локацию";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,7 @@
 				DEVELOPMENT_TEAM = 6SG8CN98LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Хотим использовать локацию";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
